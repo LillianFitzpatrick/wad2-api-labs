@@ -126,3 +126,41 @@ input[type=date] {
 .priorityLow { background: #2f7d32; }     /* green */
 .priorityMedium { background: #c79a2b; }  /* amber */
 .priorityHigh { background: #d64545; }    /* red */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4f4f4f;
+  padding: 0rem 2rem;
+  color: white;
+}
+
+.left-section {
+  display: flex;
+  align-items: baseline; /* Align children to baseline */
+  gap: 1.5rem;
+}
+
+.home-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav-links a:hover, .home-link:hover {
+  text-decoration: underline;
+}
